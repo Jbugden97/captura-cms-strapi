@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_contents",
+  "info": {
+    "singularName": "page-content",
+    "pluralName": "page-contents",
+    "displayName": "Page Content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Page": {
+      "type": "string"
+    },
+    "section": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "text_content": {
+      "type": "text"
+    },
+    "is_active": {
+      "type": "boolean"
+    }
+  }
+}

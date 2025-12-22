@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "site_medias",
+  "info": {
+    "singularName": "site-media",
+    "pluralName": "site-medias",
+    "displayName": "Site Media"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "section": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
